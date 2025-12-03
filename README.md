@@ -2,3 +2,4 @@
 
 Edukacyjna implementacja algorytmu K-Nearest Neighbors.
 Porównanie własnej implementacji z biblioteką Scikit-Learn.
+# K-NN_Algorithm_Project
