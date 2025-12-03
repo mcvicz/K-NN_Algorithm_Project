@@ -4,12 +4,8 @@ import time
 import sys
 import os
 
-# Dodajemy katalog główny projektu do ścieżki, żeby widzieć folder 'src'
 sys.path.append(os.path.abspath(os.path.join('..')))
 
 from sklearn.datasets import load_iris, load_wine, load_breast_cancer, load_digits
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-
-# Import naszej klasy z nowego miejsca
-from src.knn import KNNClassifier
