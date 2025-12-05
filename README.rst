@@ -52,10 +52,10 @@ To run the project, it is recommended to use a virtual environment.
 2. Installation (Editable Mode)
 -------------------------------
 
-This will install the project and all required dependencies (numpy, pandas, etc.) in your environment.
+This will install the project and all required dependencies (numpy, pandas, etc.) in your environment. Enable venv first.
 
 .. code-block:: bash
-
+    source venv/bin/activate
     pip install -e .
 
 3. Running tests

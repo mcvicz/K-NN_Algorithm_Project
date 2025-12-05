@@ -2,4 +2,5 @@
 Contributors
 ============
 
-* Pawel <pawel.michalcewicz@minas.com.pl>
+* Paweł Michalcewicz <michalcewicz@student.agh.edu.pl>
+* Krystian Ruszczak <krystianr@student.agh.edu.pl>
