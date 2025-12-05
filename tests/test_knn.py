@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier as SklearnKNN
 
 # Add the parent directory to sys.path to locate the 'src' package
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from src.knn import KNNClassifier
+from knn_project.knn import KNNClassifier
 
 # ---------------- FIXTURES (DATA) ----------------
 

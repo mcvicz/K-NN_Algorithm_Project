@@ -12,11 +12,7 @@ from sklearn.neighbors import KNeighborsClassifier
 # KEY SETUP: Add 'src' folder to system path to import custom KNN
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 
-try:
-    from knn import KNNClassifier
-except ImportError:
-    # Fallback if running directly from root
-    from src.knn import KNNClassifier
+from knn_project.knn import KNNClassifier
 
 # Set plot style
 sns.set(style="whitegrid", font_scale=1.2)
